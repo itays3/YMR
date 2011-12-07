@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.content{
+	max-height:400px;
+	
+}
+
+.inc{
+	position:relative;
+	bottom:153px;
+	right:1px;
+	padding-bottom:-200px;
+}
