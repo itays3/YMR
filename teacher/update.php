@@ -48,17 +48,17 @@
 <div class="sidebar1">
 
     
-    <table><tr><td><?
+    <table><tr><td  align="center"><?
 		session_start();
 		$username = $_SESSION['username'];
 			if ($_SESSION['username']);
 			else
 			die("You must be logged in!");
-			$result = mysql_query("SELECT * from students WHERE username='$username'");
+			$result = mysql_query("SELECT * from teachers WHERE username='$username'");
 			while($row = mysql_fetch_array($result))
 			{
-				echo " ברוך הבא,";
-				echo  $row['name'];
+				echo " Welcome, ";
+				echo  $row['username'];
 			}
 			?>
          </td></tr></table>
@@ -66,12 +66,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; עדכון פרטי תלמיד</li>
-    	<li><a href="actions/add.php" target="Mainframe">&nbsp;כיתה א</a></li>
-        <li><a href="#" target="Mainframe">&nbsp;כיתה ב</a></li>
-        <li><a href="#" target="Mainframe">&nbsp;כיתה ג</a></li>
-	    <li><a href="#" target="Mainframe">&nbsp;כיתה ד</a></li>
-	    <li><a href="#" target="Mainframe">&nbsp;כיתה ה</a></li>
-		<li><a href="#" target="Mainframe">&nbsp;כיתה ו</a></li>
+    	<li><a href="students update/update1.php" target="Mainframe">&nbsp;כיתה א</a></li>
+        <li><a href="students update/update2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
+        <li><a href="students update/update3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
+	    <li><a href="students update/update4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
+	    <li><a href="students update/update5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
+		<li><a href="students update/update6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
 
     </ul>
 	

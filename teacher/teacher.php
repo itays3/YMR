@@ -50,17 +50,17 @@
 <div class="sidebar1">
 
     
-    <table><tr><td><?
+    <table><tr><td align="center"><?
 		session_start();
 		$username = $_SESSION['username'];
 			if ($_SESSION['username']);
 			else
 			die("You must be logged in!");
-			$result = mysql_query("SELECT * from students WHERE username='$username'");
+			$result = mysql_query("SELECT * from teachers WHERE username='$username'");
 			while($row = mysql_fetch_array($result))
 			{
-				echo " ברוך הבא,";
-				echo  $row['name'];
+				echo " Welcome, ";
+				echo  $row['username'];
 			}
 			?>
          </td></tr></table>
@@ -70,9 +70,9 @@
 	    <li>&nbsp; תפריט ראשי</li>
     	<li><a href="register.php">&nbsp;הוספת תלמיד למערכת</a></li>
         <li><a href="update.php">&nbsp;עדכון פרטי תלמיד</a></li>
-        <li><a href="#" target="Mainframe">&nbsp;כתיבת הודעות</a></li>
-        <li><a href="#" target="Mainframe">&nbsp;הוספת שיעורי בית</a></li>
-	    <li><a href="#" target="Mainframe">&nbsp;בדיקת שעורי בית</a></li>
+        <li><a href="posts.php" >&nbsp;כתיבת הודעות</a></li>
+        <li><a href="homework.php">&nbsp;הוספת שיעורי בית</a></li>
+	    <li><a href="home_check.php">&nbsp;בדיקת שעורי בית</a></li>
 	    <li><a href="actions/test.php" target="Mainframe">&nbsp;הכנת מבחן</a></li>
 
 

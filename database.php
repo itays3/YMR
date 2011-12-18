@@ -6,5 +6,4 @@ $con = mysql_connect("localhost","root","597135");
 				}
 			mysql_query("SET NAMES 'hebrew'");
 			mysql_select_db("users", $con);
-
 ?>

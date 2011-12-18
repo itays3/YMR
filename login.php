@@ -71,6 +71,7 @@ if ($username&&$password) {
 	if (($username==$dbusername && $password==$dbpassword)){
 		 header('Location: teacher/teacher.php');
 		$_SESSION['username'] = $username;
+		$_SESSION['id'] = $s_id;
 	}
 	}
 }

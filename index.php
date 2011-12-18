@@ -15,26 +15,13 @@
 
   <div class="header">
   <table background="images/header.jpg">
-<tr><td>
-<br/>
-<br/>
-<br/>
-</td>
+
   </table> 
     <!-- end .header --></div>
 <!-------------------------------------------------------->
   <div class="sidebar1" dir="rtl">
     <ul class="nav" dir="rtl">
-	    <li>תרגילי בית</li>
-    	<li><a href="#">תרגילי כיתה</a></li>
-    	<li><a href="#">חומר עזר</a></li>
-	    <li><a href="#">פורום</a></li>
-	    <li><a href="#">שאלות למורה</a></li>
-		<li><a href="#">תרגול אקראי</a></li>
-		<li><a href="grades/first grade/games.php">משחקים</a></li>
-        <li><a href="#">סטטיסטיקה אישית</a></li>
-		<li><a href="#">סטטיסטיקה כיתתית</a></li>
-		<li><a href="#">סטטיסטיקה ארצית</a></li>
+
 
     </ul>
      <p></p>

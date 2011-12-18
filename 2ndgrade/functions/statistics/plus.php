@@ -130,6 +130,11 @@
             <tr><td><p>חיבור במאונך - רמה קשה</p></td><td><P><? if ($total8!=0){ echo intval($counter_yes8/$total8 * 100), "% אחוזי הצלחה"; }
 			else echo "עדיין אין נתונים" ?></P></td></tr> 
             </table>
+<?php 
+include ('../../level.php')
+
+
+?>
 
 			</div></div>
 

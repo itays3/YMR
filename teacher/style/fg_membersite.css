@@ -1,11 +1,8 @@
-/*
-Registration/Login Form by html-form-guide.com
-You can customize all the aspects of the form in this style sheet
-*/
+
 
 #fg_membersite fieldset
 {
-   width: 230px;
+   width: 600px;
    padding:20px;
    border:1px solid #ccc;
 -moz-border-radius: 10px;
@@ -163,4 +160,12 @@ padding-bottom:10px;
    font-size: 1.5em;
    font-weight:bold;
    color:#333;
+}
+#plus {
+
+display: none;
+}
+#minus {
+
+display: none;
 }

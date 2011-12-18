@@ -56,15 +56,7 @@ if ($_SESSION['username'])
 		    
 		    <td><?php print $_POST['oldanswer'];?></td>
 	            <?php } ?>
-                <td>    <?php	
-				if (isset($_POST['answer']) ) 
-				{
-					if ($_POST['the_answer']==$_POST['answer'])
-						print "<font color='green'> כל הכבוד </font>";
-					else
-						print "<font color='red'> טעות</font>";
-				}
-			?></td></table>
+                <td><? include('answer.php') ?></td></table>
 </form>
 <?php 
 session_start();

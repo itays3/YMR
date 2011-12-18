@@ -50,19 +50,11 @@
 		    
 		    <td><?php print $_POST['oldanswer'];?></td>
             <?php } ?>
-	            <td>    <?php	
-				if (isset($_POST['answer']) ) 
-				{
-					if ($_POST['the_answer']==$_POST['answer'])
-						print "<font color='green'> כל הכבוד </font>";
-					else
-						print "<font color='red'> טעות</font>";
-				}
-			?></td>
+	            <td><? include('answer.php') ?></td>
           </tr>  
            
     </table>
-</form>
+</Form>
 <?php 
 session_start();
 $username = $_SESSION['username'];
@@ -70,6 +62,7 @@ $result = mysql_query("SELECT * from students WHERE username='$username'");
 while($row = mysql_fetch_array($result)){
 $grade = $row['grade_letter'];
 $grade_num = $row['grade_num'];
+$s_id=$row['id'];
 if (isset($_POST['answer']) )
 {
 if ($_POST['the_answer']==$_POST['answer']){
@@ -94,6 +87,20 @@ if (!mysql_query($sql,$con))
   }
 echo "1 record added";	
 }}}
+
+$query = "SELECT s_id, SUM(yes_count) FROM statistics WHERE s_id='$s_id' && subject='pluss100'  GROUP BY s_id"; 
+$result = mysql_query($query) or die(mysql_error());
+// Print out result
+while($row = mysql_fetch_array($result)){
+	$plus=$row['SUM(yes_count)'];
+	
+}
+
+$query=sprintf("UPDATE connect SET plus1='%s' WHERE s_id='%s' ;",
+mysql_real_escape_string($plus),
+mysql_real_escape_string($s_id));
+$result = mysql_query($query);
+
 mysql_close($con);?>
    
 </body>

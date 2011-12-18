@@ -5,3 +5,9 @@ body {font:14px Helvetica, sans-serif; font-weight:bold; background:#FFF;}
 .menu li {float:left}
 .menu a, .menu a:active, .menu a:visited, .menu a:hover {text-decoration:none; color:#000; padding:10px}
 #slide {position:absolute; top:6px; height:24px; background:#89957a; z-index:10}
+
+.inc1{
+	position:relative;
+	bottom:150px;
+	right:10px;
+}
