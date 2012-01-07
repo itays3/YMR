@@ -65,12 +65,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; הוספת תלמידים</li>
-    	<li><a href="posts/manage_posts.php" target="Mainframe">&nbsp;כיתה א</a></li>
-        <li><a href="posts/post2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
-        <li><a href="posts/post3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
-	    <li><a href="posts/post4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
-	    <li><a href="posts/post5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
-		<li><a href="posts/post6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
+    	<li><a href="posts/manage_posts1.php" target="Mainframe">&nbsp;כיתה א</a></li>
+        <li><a href="posts/manage_posts2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
+        <li><a href="posts/manage_posts3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
+	    <li><a href="posts/manage_posts4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
+	    <li><a href="posts/manage_posts5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
+		<li><a href="posts/manage_posts6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
 
     </ul>
 	

@@ -28,8 +28,8 @@
         <li ><a href="#">שאלות למורה</a></li>
         <li><a href="#">פורום</a></li>
         <li><a href="#">חומר עזר</a></li>
-        <li><a href="#">תרגילי כיתה</a></li>
-        <li value="1"><a href="#">תרגילי בית</a></li>
+        <li><a href="classwork.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="teacher.php">עמוד ראשי</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -66,12 +66,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; עדכון פרטי תלמיד</li>
-    	<li><a href="students update/update1.php" target="Mainframe">&nbsp;כיתה א</a></li>
-        <li><a href="students update/update2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
-        <li><a href="students update/update3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
-	    <li><a href="students update/update4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
-	    <li><a href="students update/update5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
-		<li><a href="students update/update6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
+    	<li><a href="update_student/update1.php" target="Mainframe">&nbsp;כיתה א</a></li>
+        <li><a href="update_student/update2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
+        <li><a href="update_student/update3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
+	    <li><a href="update_student/update4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
+	    <li><a href="update_student/update5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
+		<li><a href="update_student/update6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
 
     </ul>
 	

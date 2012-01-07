@@ -27,9 +27,9 @@
         <li><a href="#">סטטיסטיקה</a></li>
         <li ><a href="#">שאלות למורה</a></li>
         <li><a href="#">פורום</a></li>
-        <li><a href="#">חומר עזר</a></li>
-        <li><a href="#">תרגילי כיתה</a></li>
-        <li value="1"><a href="#">תרגילי בית</a></li>
+        <li><a href="files/mainfiles.php">חומר עזר</a></li>
+        <li><a href="classwork.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="teacher.php">עמוד ראשי</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -50,8 +50,8 @@
 <div class="sidebar1">
 
     
-    <table><tr><td align="center"><?
-		session_start();
+    <table><tr><td align="center">
+	<? session_start();
 		$username = $_SESSION['username'];
 			if ($_SESSION['username']);
 			else
@@ -62,7 +62,7 @@
 				echo " Welcome, ";
 				echo  $row['username'];
 			}
-			?>
+	?>
          </td></tr></table>
          <div id="test1a">
        <ul class="nav" dir="rtl">      
@@ -73,7 +73,7 @@
         <li><a href="posts.php" >&nbsp;כתיבת הודעות</a></li>
         <li><a href="homework.php">&nbsp;הוספת שיעורי בית</a></li>
 	    <li><a href="home_check.php">&nbsp;בדיקת שעורי בית</a></li>
-	    <li><a href="actions/test.php" target="Mainframe">&nbsp;הכנת מבחן</a></li>
+	    <li><a href="test/maintest.php">&nbsp;הכנת מבחן</a></li>
 
 
     </ul>
@@ -102,7 +102,7 @@
 
 </div>
 <div class="inc">
-<iframe name="Mainframe" frameborder="0" width="690px" height="500px"></iframe>
+<iframe name="Mainframe" frameborder="0" width="690px" height="500px"  ></iframe>
     </div>
     <!-- end .content --></div>
  <!-------------------------------------------------------->        

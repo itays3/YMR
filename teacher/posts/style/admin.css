@@ -44,3 +44,7 @@ td {
 image {
 	border:none;
 }
+
+.format{
+	direction:rtl;	
+}

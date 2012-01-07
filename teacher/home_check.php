@@ -28,8 +28,8 @@
         <li ><a href="#">שאלות למורה</a></li>
         <li><a href="#">פורום</a></li>
         <li><a href="#">חומר עזר</a></li>
-        <li><a href="#">תרגילי כיתה</a></li>
-        <li value="1"><a href="#">תרגילי בית</a></li>
+        <li><a href="classwork.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="teacher.php">עמוד ראשי</a></li>
     </ul>
     <div id="slide"></div>
 </div>

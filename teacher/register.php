@@ -28,8 +28,8 @@
         <li ><a href="#">שאלות למורה</a></li>
         <li><a href="#">פורום</a></li>
         <li><a href="#">חומר עזר</a></li>
-        <li><a href="#">תרגילי כיתה</a></li>
-        <li value="1"><a href="#">תרגילי בית</a></li>
+        <li><a href="classwork.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="teacher.php">עמוד ראשי</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -65,12 +65,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; הוספת תלמידים</li>
-    	<li><a href="add/add1.php" target="Mainframe">&nbsp;כיתה א</a></li>
-        <li><a href="add/add2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
-        <li><a href="add/add3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
-	    <li><a href="add/add4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
-	    <li><a href="add/add5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
-		<li><a href="add/add6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
+    	<li><a href="add_student/add1.php" target="Mainframe">&nbsp;כיתה א</a></li>
+        <li><a href="add_student/add2.php" target="Mainframe">&nbsp;כיתה ב</a></li>
+        <li><a href="add_student/add3.php" target="Mainframe">&nbsp;כיתה ג</a></li>
+	    <li><a href="add_student/add4.php" target="Mainframe">&nbsp;כיתה ד</a></li>
+	    <li><a href="add_student/add5.php" target="Mainframe">&nbsp;כיתה ה</a></li>
+		<li><a href="add_student/add6.php" target="Mainframe">&nbsp;כיתה ו</a></li>
 
     </ul>
 	
