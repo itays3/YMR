@@ -23,9 +23,9 @@
     <table cellpadding="3" cellspacing="3" align="center">
     	<tr>
     		<td><?php print $x; ?></td>
-			<td><input name="answer" type="text" size="1"/></td>
+			<td><input name="answer" type="text" size="1" autocomplete="off"/></td>
 			<td><?php print $y; ?></td>
-			<td><input name="submit" type="submit" value="αγεχ" /></td>
+			<td><input name="submit" type="submit" value="αγεχ"/></td>
   		</tr>
     <!-- this part shows the last exercise and the answer-->
 		<tr>

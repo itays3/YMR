@@ -31,7 +31,7 @@
 			<td>=</td>
 	        <?php $the_answer = $a/$b;?>
 	        <input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
-	        <td><input name="answer" type="text" size="5"/></td>
+	        <td><input name="answer" type="text" size="5"  autocomplete="off"/></td>
 			<td><input name="submit" type="submit" value="αγεχ" /></td>
 		</tr>
     <!-- this part shows the last exercise and the answer-->

@@ -31,9 +31,8 @@
     		<th rowspan="2"><input name="plus" type="hidden" value="+"/> + </th>
             <td><input name="answer" type="text" size="3" autocomplete="off"/></td></tr>
 		<tr>
-			<td align="center"><?php print $y; ?></td><input name="equal" type="hidden" value="="/></tr>
-		<tr><th colspan="2"  align="right"><img src='image/equal.jpg' /></th></tr>
-    	<input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
+			<td align="center" style="border-bottom: thin solid black;"><?php print $y; ?></td><input name="equal" type="hidden" value="="/></tr>
+		<input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
 		<tr><td></td><td align="center"><?php print $the_answer; ?></th>
  			<td> <input name="submit" type="submit" value="αγεχ" /></td>
   		</tr></table>

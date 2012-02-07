@@ -28,8 +28,8 @@
         <li ><a href="teacher.php">שאלות למורה</a></li>
         <li><a href="forum.php">פורום</a></li>
         <li><a href="help.php">חומר עזר</a></li>
-        <li><a href="classwork2.php">תרגילי כיתה</a></li>
-        <li value="1"><a href="homework.php">תרגילי בית</a></li>
+        <li><a href="../classwork.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="../homework.php">תרגילי בית</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -37,7 +37,7 @@
 <div class="top">
 
 <FORM METHOD="LINK" action="../homework.php" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/main.png" HEIGHT="40%" WIDTH="50%" BORDER="0" ALT="חיבור" >
+<INPUT  TYPE="image" SRC="../../images/main.png" HEIGHT="40%" WIDTH="50%" BORDER="0" ALT="חיבור" >
 </FORM>
  </div>
     <!-- end .header --></div>
@@ -67,7 +67,7 @@
 	    <li>&nbsp; חילוק</li>
     	<li><a href="functions/hiluk20.php" target="Mainframe">&nbsp;חילוק עד 20</a></li>
     	<li><a href="functions/hiluk30.php" target="Mainframe">&nbsp;חילוק עד 30</a></li>
-	    <li><a href="functions/verbal.php" target="Mainframe">&nbsp;בעדיות מילוליות</a></li>
+	    <li><a href="functions/hiluk_L1.php" target="Mainframe">&nbsp;חילוק ארוך</a></li>
 
     </ul>
 	
@@ -87,13 +87,7 @@
 </FORM>
 
 </div> ------->
-<div class="back">
 
-<FORM METHOD="LINK" ACTION="" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/logo.png" HEIGHT="15%" WIDTH="15%" BORDER="0" >
-</FORM>
-
-</div>
 <div class="inc">
 <iframe name="Mainframe" frameborder="1" width="500px" height="300px"></iframe>
     </div>

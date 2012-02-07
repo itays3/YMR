@@ -28,8 +28,8 @@
         <li ><a href="teacher.php">שאלות למורה</a></li>
         <li><a href="forum.php">פורום</a></li>
         <li><a href="help.php">חומר עזר</a></li>
-        <li><a href="classwork2.php">תרגילי כיתה</a></li>
-        <li value="1"><a href="homework.php">תרגילי בית</a></li>
+        <li><a href="../classwork2.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="../homework.php">תרגילי בית</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -91,13 +91,7 @@
 </FORM>
 
 </div> ------->
-<div class="back">
 
-<FORM METHOD="LINK" ACTION="" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/logo.png" HEIGHT="15%" WIDTH="15%" BORDER="0" >
-</FORM>
-
-</div>
 <div class="inc">
 <iframe name="Mainframe" frameborder="1" width="500px" height="350px" scrolling="no"></iframe>
     </div>

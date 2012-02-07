@@ -14,6 +14,16 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
 	<script type="text/javascript" src="../functions/scroll/slimScroll.js"></script>
     <script type="text/javascript" src="../functions/scroll/scroll.js"></script>
+	<script type="text/javascript" src="../js/reload_div.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/
+libs/jquery/1.3.0/jquery.min.js"></script>
+ <script>
+var auto_refresh = setInterval(
+function()
+{
+$('.sidebar2').fadeOut('slow').load('personal_rank.php').fadeIn("slow");
+}, 5000);
+</script>
 <title>Youth Mathematic Revolution</title>
 <? 
 		session_start();
@@ -109,42 +119,19 @@
 </FORM>
 
 </div> ------->
-<div class="back">
 
-<FORM METHOD="LINK" ACTION="../teacher/teacher.php" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/logo.png" HEIGHT="15%" WIDTH="15%" BORDER="0" >
-</FORM>
 
-</div>
-<div class="inc">
-<iframe name="Mainframe" frameborder="1" width="500px" height="300px"></iframe>
-    </div>
 
     <!-- end .content --></div>
  <!-------------------------------------------------------->        
 
 	<div class="sidebar2" >
 
-<? 
-$rank = 0;
-$exp = 30;
-$temp = 100;
-if ($exp >= 100) 
-{
-$rank++;
-$exp = 0;
-}
+<? include('personal_rank.php'); ?>
 
-?>
-<div class="move">
-<? echo "<font color='#FF0000' style='font-size:20px'> דרגה 1 " ?>
-	<div class="progress-bar orange stripes">
-    	
-		<span style="width:<?php echo $exp; ?>px"></span>
-	</div>
-<? echo "<font color='#000000' style='font-size:16px'>" .$exp .'/' .$temp  ?>
-    </div>
-<!-- end .sidebar2 --></div>
+
+</div>
+<!-- end .sidebar2 -->
 
 <!-------------------------------------------------------->
   <div class="footer">

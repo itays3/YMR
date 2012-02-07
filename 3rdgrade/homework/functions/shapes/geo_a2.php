@@ -10,37 +10,60 @@
 </head>
 
 <body>
-
-    <h1 dir="rtl" 
-    style="font-family:Cursive;font-size:36px;color:#3200cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">זוויות - רמה קלה</h1>
-	<p dir="rtl"
-    style="font-family:Cursive;font-size:24px;color:#ff0000;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">פתור את התרגילים הבאים</p> 
-<canvas id="canvasID" width="500" height="300"></canvas>
+ <h1 dir="rtl" 
+    style="font-family:Cursive;font-size:24px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">מהי הזווית?</h1>
+<div class="canvas1">
+<canvas id="myCanvas"  width="600" height="170"  >
+Your browser does not support the canvas element.
+</canvas>
 </div>
+<? $answer1=rand(1,2); ?>
 <script type="text/javascript">
-function drawDemo(cvsID) // canvas ID is passed in as a string
+choose = <?php echo $answer1; ?>;
+
+if (choose ==1)
 {
-  var g = new CvsGraphCtx3D(cvsID);  // create a graphics context
-  g.clearCanvas("#eeeea0");          // fill canvas to lightYellow
-  g.setWorldCoords3D(-200, -200, 800);  // x axis 800 units long
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+var num2=Math.floor(Math.random()*500)
+while (num2>100){
+var num2=Math.floor(Math.random()*500)	
+}
+cxt.moveTo(300,100);	// top line
+cxt.lineTo(405,100);
 
-  // create a blue circle centered on 0,0 with radius 100
-  var circle = g.arc3D(0, 0, 100, 0, 360, true, "cyan");
-  // write text centered on the origin 100 units high
-  var txt = g.text3D("Ab", 0, 0, 5, 100, "white");
+cxt.moveTo(405,num2); // buttom line
+cxt.lineTo(300,num2);
+cxt.lineWidth = 3;
+cxt.strokeStyle = "#0000ff";
+cxt.stroke();
+}
+if (choose ==2)
+{
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+var num2=Math.floor(Math.random()*500)
+while (num2<305){
+var num2=Math.floor(Math.random()*500)	
+}
+cxt.moveTo(300,100);  // left line
+cxt.lineTo(300,160);
 
-  var grp = g.groupPaths(circle, txt);  // group 2 paths
-  g.renderGroup3D(grp);      // draw group
-
-  g.rotateGroup3D(grp, 20, -30, 0);
-  g.translateGroup3D(grp, 300, 200, 100);
-  g.renderGroup3D(grp);      // draw after moving
+cxt.moveTo(num2,160); // right line
+cxt.lineTo(num2,100);
+cxt.lineWidth = 3;
+cxt.strokeStyle = "#0000ff";
+cxt.stroke();
 }
 </script>
 
-<form action="geo_a1.php" method="get" name="frm">
-<input name="submit" type="submit" />
-<? echo $_GET['rand'];?>
+<form action="geo_a2.php" method="POST" name="frm" dir="rtl">
+<input name="last_answer1" type="hidden" value="<?= $answer1?>" />
+<input name="btn1" type="radio" value="" /><label>צלעות מקבילות</label><br />
+<input name="btn2" type="radio" value="" /><label>צלעות אנכיות</label><br />
+<input name="btn3" type="radio" value="" /><label></label><br />
+<input name="btn4" type="radio" value="" /><label></label><br />
+<input name="submit" type="submit" value="בדוק"/>
 </form>
 
 </body>

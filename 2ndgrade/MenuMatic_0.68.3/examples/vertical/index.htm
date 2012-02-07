@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server" >
+    	<title>MenuMatic Vertical Example</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1255"/>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/reset/reset-min.css">
+
+		<link rel="stylesheet" href="css/MenuMatic.css" type="text/css" media="screen" charset="windows-1255" />
+		<!--[if lt IE 7]>
+			<link rel="stylesheet" href="css/MenuMatic-ie6.css" type="text/css" media="screen" charset="utf-8" />
+		<![endif]-->
+</head>
+<body dir="rtl">
+    
+   <div id="container" dir="rtl">
+   		
+   		<a id="logo" href="http://greengeckodesign.com/projects/menumatic.aspx">MenuMatic</a>
+   		
+	    
+		<!-- BEGIN Menu -->
+	    <ul id="nav" dir="rtl">
+
+			<li><a href="#">חיבור</a>
+		
+				<ul>
+					<li><a href="#">חיבור עד 100</a>
+						<ul>
+							<li><a href="#">רמה קלה</a></li>
+							<li><a href="#">רמה בינונית</a></li>
+							<li><a href="#">רמה קשה</a></li>
+						</ul>
+					</li>
+					<li><a href="#">חיבור עד 200</a>
+						<ul>
+							<li><a href="#">רמה קלה</a></li>
+							<li><a href="#">רמה בינונית</a></li>
+							<li><a href="#">רמה קשה</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+            <li><a href="#">חיסור</a>
+		
+				<ul>
+					<li><a href="#">חיסור עד 100</a>
+						<ul>
+							<li><a href="#">רמה קלה</a></li>
+							<li><a href="#">רמה בינונית</a></li>
+							<li><a href="#">רמה קשה</a></li>
+						</ul>
+					</li>
+					<li><a href="#">חיסור עד 200</a>
+						<ul>
+							<li><a href="#">רמה קלה</a></li>
+							<li><a href="#">רמה בינונית</a></li>
+							<li><a href="#">רמה קשה</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+					
+		</ul>
+			
+	
+		<!-- END Menu -->
+
+    		  
+    </div>
+
+	
+	<!-- Load the Mootools Framework -->
+	<script src="http://www.google.com/jsapi"></script><script>google.load("mootools", "1.2.1");</script>	
+	
+	<!-- Load the MenuMatic Class -->
+	<script src="js/MenuMatic_0.68.3.js" type="text/javascript" charset="windows-1255"></script>
+	
+	<!-- Create a MenuMatic Instance -->
+	<script type="text/javascript" >
+		window.addEvent('domready', function() {			
+			var myMenu = new MenuMatic({ orientation:'vertical' });			
+		});		
+	</script>
+	
+	<!-- begin google tracking code -->
+	 <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-2180518-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+    </script>
+	<!-- end google tracking code -->
+</body>
+</html>

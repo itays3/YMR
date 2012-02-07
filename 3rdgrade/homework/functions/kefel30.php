@@ -11,7 +11,10 @@
 
 <body>
 
-    <h1 dir="rtl">כפל עד 30</h1>
+    <h1 dir="rtl" 
+    style="font-family:Cursive;font-size:36px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">כפל עד 30</h1>
+	<p dir="rtl"
+    style="font-family:Cursive;font-size:24px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">פתור את התרגילים הבאים</p>
 <?php 
 	  
 	  $x = rand(1,10);

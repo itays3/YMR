@@ -6,7 +6,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../../style2.css" />
 <link rel="stylesheet" type="text/css" href="../../index.css" />
-<link rel="stylesheet" type="text/css" href="../functions/verbal/inc.css" />
+<link rel="stylesheet" type="text/css" href="assets/inc.css" />
 <script type="text/javascript" language="javascript" src="../../script.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -28,8 +28,8 @@
         <li ><a href="teacher.php">שאלות למורה</a></li>
         <li><a href="forum.php">פורום</a></li>
         <li><a href="help.php">חומר עזר</a></li>
-        <li><a href="classwork2.php">תרגילי כיתה</a></li>
-        <li value="1"><a href="homework.php">תרגילי בית</a></li>
+        <li><a href="../classwork2.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="../homework.php">תרגילי בית</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -37,7 +37,7 @@
 <div class="top">
 
 <FORM METHOD="LINK" action="../homework.php" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/main.png" HEIGHT="40%" WIDTH="50%" BORDER="0" ALT="חיבור" >
+<INPUT  TYPE="image" SRC="../images/main.png" HEIGHT="40%" WIDTH="50%" BORDER="0" ALT="ראשי" >
 </FORM>
  </div>
     <!-- end .header --></div>
@@ -96,7 +96,7 @@
 
 </div>
 <div class="inc">
-<iframe name="Mainframe" frameborder="1" width="590px" height="450px" scrolling="no"></iframe>
+<iframe name="Mainframe" frameborder="1" width="590px" height="400px" scrolling="no"></iframe>
     </div>
     <!-- end .content --></div>
  <!-------------------------------------------------------->        

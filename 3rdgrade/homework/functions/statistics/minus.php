@@ -245,7 +245,7 @@
 
             </table>
 <?php 
-include ('../../level.php')
+include ('../../../level.php')
 
 
 ?>

@@ -25,10 +25,10 @@
 <div class="menu" dir="ltr">
     <ul id="menu" dir="ltr">
         <li><a href="statistics.php">סטטיסטיקה</a></li>
-        <li ><a href="teacher.php">שאלות למורה</a></li>
-        <li><a href="forum.php">פורום</a></li>
-        <li><a href="help.php">חומר עזר</a></li>
-        <li><a href="classwork.php">תרגילי כיתה</a></li>
+        <li ><a href="../build.php">שאלות למורה</a></li>
+        <li><a href="../build.php">פורום</a></li>
+        <li><a href="../build.php">חומר עזר</a></li>
+        <li><a href="../build.php">תרגילי כיתה</a></li>
         <li value="1"><a href="homework.php">תרגילי בית</a></li>
     </ul>
     <div id="slide"></div>

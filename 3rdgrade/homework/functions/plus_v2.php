@@ -29,13 +29,12 @@
     <table align="center" dir="ltr" >
     	<tr>
     	<th rowspan="2" ><input name="plus" type="hidden" value="+"/> + </th>
-        <td align="center"><?php print $x; ?></td></tr>
+        <td align="center" ><?php print $x; ?></td></tr>
 		<tr>
 		<td><input name="answer" type="text" size="3" autocomplete="off"/></td>
         <input name="equal" type="hidden" value="="/></tr>
-		<tr><th colspan="2" align="right"><img src='image/equal.jpg' /></th></tr>
-    	<input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
-		<tr><td></td><td align="center"><?php print $the_answer; ?></th>
+		<input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
+		<tr><td></td><td align="center" style="border-top: thin solid black;"><?php print $the_answer; ?></th>
  		<td> <input name="submit" type="submit" value="αγεχ" /></td>
   		</tr></table>
     <!-- this part shows the last exercise and the answer-->

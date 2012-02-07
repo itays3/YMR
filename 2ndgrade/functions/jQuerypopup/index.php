@@ -38,7 +38,7 @@
 		<td><?php print $by; ?></td>
 		<td>=</td>
         <?php $the_answer_b = $by+$bx;?><input name="the_answer_b" type="hidden" value="<?=$the_answer_b?>"/>
-		<td><input name="answer_b" type="text" size="5"/></td>
+		<td><input name="answer_b" type="text" size="5" autocomplete="off"/></td>
 		<td><input name="submit1" type='button' value="αγεχ" id="button" /></td>
     <!-- this part shows the last exercise and the answer-->
 		<tr>

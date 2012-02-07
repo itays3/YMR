@@ -13,8 +13,8 @@
 <div class="container">
 <div class="menu" dir="ltr">
     <ul id="menu" dir="ltr">
-    	<li><a href="statistics.php">בעיות מילוליות</a></li>
-        <li><a href="statistics.php">שיוויון ואי שיוויון</a></li>
+    	<li><a href="#" target="subframe">בעיות מילוליות</a></li>
+        <li><a href="#" target="subframe">שיוויון ואי שיוויון</a></li>
         <li><a href="statistics/sdarot.php" target="subframe">סדרות</a></li>
         <li><a href="statistics/gimatria.php" target="subframe">גימטריה</a></li>
         <li><a href="statistics/hiluk.php" target="subframe">חילוק</a></li>

@@ -26,8 +26,7 @@
     		<th rowspan="2"><input name="minus" type="hidden" value="-"/> - </th>
             <td align="center"><?php print $x; ?></td></tr>
 		<tr>
-			<td align="center"><?php print $y; ?></td><input name="equal" type="hidden" value="="/></tr>
-		<tr><td></td><td align="center"><img src='image/equal.jpg' /></th></tr>
+			<td align="center" style="border-bottom: thin solid black;"><?php print $y; ?></td><input name="equal" type="hidden" value="="/></tr>
     		<?php $the_answer = $x-$y;?><input name="the_answer" type="hidden" value="<?=$the_answer?>"/>
 		<tr><td></td><td><input name="answer" type="text" size="5" autocomplete="off"/></th>
  			<td> <input name="submit" type="submit" value="αγεχ" /></td>

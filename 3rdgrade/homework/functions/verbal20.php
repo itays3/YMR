@@ -21,8 +21,10 @@ if ($_SESSION['username'])
 	die("You must be logged in!");
 ?>
 
-    <h1 dir="rtl">בעיות מילוליות</h1>
-	<p dir="rtl">פתור את התרגילים הבאים</p>
+    <h1 dir="rtl" 
+    style="font-family:Cursive;font-size:36px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">בעיות מילוליות</h1>
+	<p dir="rtl"
+    style="font-family:Cursive;font-size:24px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">פתור את התרגילים הבאים</p>
     <?php 
 		echo "<font size=5>";
 	

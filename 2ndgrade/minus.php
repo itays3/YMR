@@ -65,12 +65,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; חיסור</li>
-    	<li><a href="functions/minus10.php" target="Mainframe" >&nbsp;חיסור עד 100</a></li>
-    	<li><a href="functions/minus20.php" target="Mainframe">&nbsp;חיסור עד 200</a></li>
-	    <li><a href="functions/minus100.php" target="Mainframe">&nbsp;חיסור בעשרות עד 1000</a></li>
-	    <li><a href="functions/minussh20.php" target="Mainframe">&nbsp;שרשרת עד 200</a></li>
-		<li><a href="functions/minussh100.php" target="Mainframe">&nbsp;שרשרת עד 1000</a></li>
-        <li><a href="functions/vertical2.php" target="Mainframe">&nbsp;חיסור במאונך</a></li>
+    	<li><a href="functions/mainminus_a.php" target="Mainframe" >&nbsp;חיסור עד 100</a></li>
+    	<li><a href="functions/mainminus_b.php" target="Mainframe">&nbsp;חיסור עד 200</a></li>
+	    <li><a href="functions/mainminus_c.php" target="Mainframe">&nbsp;חיסור בעשרות עד 1000</a></li>
+	    <li><a href="functions/mainminus_d.php" target="Mainframe">&nbsp;שרשרת עד 200</a></li>
+		<li><a href="functions/mainminus_e.php" target="Mainframe">&nbsp;שרשרת עד 1000</a></li>
+        <li><a href="functions/mainminus_v.php" target="Mainframe">&nbsp;חיסור במאונך</a></li>
 
 
     </ul>
@@ -116,6 +116,7 @@
 
 	<br/><br/><br/><br/><br/><br/><br/>
     </div>
+    
 <!-- end .sidebar2 --></div>
 
 <!-------------------------------------------------------->

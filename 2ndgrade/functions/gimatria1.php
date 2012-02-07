@@ -56,7 +56,7 @@ mysql_close($con);?>
     	<tr>
     		<td><?php print $letter; ?></td>
 			<td><input name="equal" type="hidden" value="="/>=</td>
-    		<td><input name="answer" type="text" size="5"/></td>
+    		<td><input name="answer" type="text" size="5" autocomplete="off"/></td>
 	   		<td><input name="submit" type="submit" value="αγεχ" /></td>
   		</tr></table>
     <!-- this part shows the last exercise and the answer-->

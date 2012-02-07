@@ -65,12 +65,12 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; חיבור</li>
-    	<li><a href="functions/plus10.php" target="Mainframe">&nbsp;חיבור עד 100</a></li>
-    	<li><a href="functions/plus20.php" target="Mainframe">&nbsp;חיבור עד 200</a></li>
-	    <li><a href="functions/plus100.php" target="Mainframe">&nbsp;בעשרות עד 1000</a></li>
-	    <li><a href="functions/plussh20.php" target="Mainframe">&nbsp;שרשרת עד 200</a></li>
-		<li><a href="functions/plussh100.php" target="Mainframe">&nbsp;שרשרת עד 1000</a></li>
-		<li><a href="functions/vertical1.php" target="Mainframe">&nbsp;חיבור במאונך</a></li>
+    	<li><a href="functions/mainplus_a.php" target="Mainframe">&nbsp;חיבור עד 100</a></li>
+    	<li><a href="functions/mainplus_b.php" target="Mainframe">&nbsp;חיבור עד 200</a></li>
+	    <li><a href="functions/mainplus_c.php" target="Mainframe">&nbsp;בעשרות עד 1000</a></li>
+	    <li><a href="functions/mainplus_d.php" target="Mainframe">&nbsp;שרשרת עד 200</a></li>
+		<li><a href="functions/mainplus_e.php" target="Mainframe">&nbsp;שרשרת עד 1000</a></li>
+		<li><a href="functions/mainplus_v.php" target="Mainframe">&nbsp;חיבור במאונך</a></li>
 
 
     </ul>

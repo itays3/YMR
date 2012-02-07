@@ -4,24 +4,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1155" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
 <title>Youth Mathematic Revolution</title>
 
 </head>
 
 <body>
- <h2 dir="rtl">מהי הזווית?</h2>
+ <h1 dir="rtl" 
+    style="font-family:Cursive;font-size:24px;color:#3300cc;font-style:italic;font-weight:normal;text-shadow:4px 4px 8px black;">מהי הזווית?</h1>
 <div class="canvas1">
 <canvas id="myCanvas"  width="600" height="170"  >
 Your browser does not support the canvas element.
 </canvas>
 </div>
+<? $answer1=rand(1,8); ?>
 <script type="text/javascript">
-var choose = Math.floor(Math.random()*9);
+choose = <?php echo $answer1; ?>;
+/*var choose = Math.floor(Math.random()*9);
 while (choose==0)
 {
 	var choose = Math.floor(Math.random()*9);
-}
+}*/
 if (choose ==1)
 {
 var c=document.getElementById("myCanvas");
@@ -81,17 +84,16 @@ while (num2<403)
 	cxt.strokeStyle = "#0000ff";
 	cxt.stroke();
 }
+
 </script>
 
-<form action="geo_a1.php" method="get" name="frm" dir="rtl">
+<form name="frm" action="geo_a1.php" method="POST"  dir="rtl">
+<input name="last_answer1" type="hidden" value="<?= $answer1?>" />
 <input name="btn1" type="radio" value="" /><label>זווית חדה</label><br />
 <input name="btn2" type="radio" value="" /><label>זווית כהה</label><br />
 <input name="btn3" type="radio" value="" /><label>זווית ישרה</label><br />
 <input name="btn4" type="radio" value="" /><label>זווית שטוחה</label><br />
-<input name="submit" type="submit" value="בדוק"/>
-<? $x = $_GET['num1'];
-echo $x;
-?>
+<input name="submit" type="submit" value="בדוק" onclick=""/>
 </form>
 
 </body>

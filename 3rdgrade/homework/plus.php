@@ -6,7 +6,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../../style2.css" />
 <link rel="stylesheet" type="text/css" href="../../index.css" />
-
+<link rel="stylesheet" type="text/css" href="../../bar.css" />
 <script type="text/javascript" language="javascript" src="../../script.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -28,8 +28,8 @@
         <li ><a href="teacher.php">שאלות למורה</a></li>
         <li><a href="forum.php">פורום</a></li>
         <li><a href="help.php">חומר עזר</a></li>
-        <li><a href="classwork2.php">תרגילי כיתה</a></li>
-        <li value="1"><a href="homework.php">תרגילי בית</a></li>
+        <li><a href="../classwork2.php">תרגילי כיתה</a></li>
+        <li value="1"><a href="../homework.php">תרגילי בית</a></li>
     </ul>
     <div id="slide"></div>
 </div>
@@ -91,32 +91,14 @@
 </FORM>
 
 </div> ------->
-<div class="back">
 
-<FORM METHOD="LINK" ACTION="" dir="rtl">
-<INPUT  TYPE="image" SRC="../images/logo.png" HEIGHT="15%" WIDTH="15%" BORDER="0" >
-</FORM>
-
-</div>
 <div class="inc">
 <iframe name="Mainframe" frameborder="1" width="500px" height="350px" scrolling="no"></iframe>
     </div>
     <!-- end .content --></div>
  <!-------------------------------------------------------->        
 	<div class="sidebar2">
-        <div class="sidebarimg1">
-
-	<br/><br/><br/><br/><br/><br/><br/>
-    </div>
-    <div class="sidebarimg2">
-
-	<br/><br/><br/><br/><br/><br/><br/>
-    </div>        
-    <div class="sidebarimg3">
-
-	<br/><br/><br/><br/><br/><br/><br/>
-    </div>
-
+<? include('../personal_rank.php'); ?>
 <!-- end .sidebar2 --></div>
 
 <!-------------------------------------------------------->

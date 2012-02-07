@@ -6,7 +6,8 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../../style2.css" />
 <link rel="stylesheet" type="text/css" href="../../index.css" />
-<link rel="stylesheet" type="text/css" href="../../teacher/style/teacher.css" />
+<link rel="stylesheet" type="text/css" href="functions/statistics/inc.css" />
+<link rel="stylesheet" type="text/css" href="../teacher/style/teacher.css" />
 <script type="text/javascript" language="javascript" src="../script.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>

@@ -277,7 +277,7 @@
 			}
 			else echo "<p style='color:#000000;'>", "עדיין אין נתונים " ?></P></td>
             
-            <td><P><? if ($total3!=0){
+            <td><P><? if ($total9!=0){
 			if (intval($counter_yes9/$total9 * 100 )> 50){	
 			echo "<p style='color:#339900;'>", intval($counter_yes9/$total9 * 100), "%  הצלחה "; 
 			}
@@ -372,7 +372,7 @@
 
             </table>
 <?php 
-include ('../../level.php')
+include ('../../../level.php')
 
 
 ?>

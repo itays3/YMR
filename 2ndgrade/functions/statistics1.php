@@ -24,6 +24,6 @@
     </ul><br/>
     <div id="slide"></div></div>
     <div class="content">
-<iframe name="subframe" frameborder="0" width="400px" height="400px"></iframe>
+<iframe name="subframe" frameborder="0" width="690px" height="500px"></iframe>
 </body>
 </html>

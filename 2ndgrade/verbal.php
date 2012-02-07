@@ -6,7 +6,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../style2.css" />
 <link rel="stylesheet" type="text/css" href="../index.css" />
-
+<link rel="stylesheet" type="text/css" href="functions/verbal/inc.css" />
 <script type="text/javascript" language="javascript" src="../script.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -66,10 +66,11 @@
        <ul class="nav" dir="rtl">      
  
 	    <li>&nbsp; בעיות מילוליות</li>
-    	<li><a href="functions/verbal20.php" target="Mainframe">&nbsp;בעיות מילוליות עד 20</a></li>
-    	<li><a href="functions/verbal30.php" target="Mainframe">&nbsp;בעיות מילוליות עד 30</a></li>
-	    <li><a href="functions/verbal100.php" target="Mainframe">&nbsp;בעיות מילוליות עד 100</a></li>
-
+    	<li><a href="functions/mainverbal_a.php" target="Mainframe">&nbsp;בעיות מילוליות בחיבור</a></li>
+    	<li><a href="functions/mainverbal_b.php" target="Mainframe">&nbsp;בעיות מילוליות בחיסור</a></li>
+	    <li><a href="functions/mainverbal_c.php" target="Mainframe">&nbsp;בעיות מילוליות בכפל</a></li>
+		<li><a href="functions/mainverbal_d.php" target="Mainframe">&nbsp;בעיות מילוליות בחילוק</a></li>
+	    <li><a href="#" target="Mainframe">&nbsp;בעיות מילוליות סיכום</a></li>
     </ul>
 	
 </div>
@@ -96,7 +97,7 @@
 
 </div>
 <div class="inc">
-<iframe name="Mainframe" frameborder="1" width="500px" height="300px"></iframe>
+<iframe name="Mainframe" frameborder="1" width="590px" height="400px" scrolling="no"></iframe>
     </div>
     <!-- end .content --></div>
  <!-------------------------------------------------------->        
